@@ -55,6 +55,7 @@ function renderEpisodes(episodes) {
     }
 
     const summary = document.createElement("p");
+    summary.classList.add("episode-description");
     summary.textContent = episode.summary
       ? episode.summary.replace(/<[^>]+>/g, "")
       : "No summary available";
