@@ -1,3 +1,48 @@
 #root {
-  color: red;
+  color: rgb(0, 0, 0); 
+}
+.episode-count {
+  color: red; 
+}
+
+.episodes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  column-gap: 15px;
+  row-gap: 15px;
+  margin: 20px 20px 20px 40px;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.episode-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+.episode-card:focus {
+  outline: 2px solid #007acc; 
+}
+
+.episode-card img {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+
+.episode-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007acc;
+  text-decoration: underline;
+}
+
+.episode-card a:hover,
+.episode-card a:focus {
+  color: #005fa3;
 }
