@@ -48,7 +48,7 @@
   border-radius: 16px;
   padding: 8px;
   margin: 0 0 10px 0;
-  background-color: #fffcfc;
+  background-color: #e7fbee;
   font-size: 20px;
 }
 .episode-description {
@@ -76,6 +76,7 @@
   border-style: solid;
   border-radius: 5px;
   font-size: large;
+  background-color: #e7fbee;
 }
 .search_bar select{
   padding: 10px;
@@ -83,7 +84,13 @@
   border-radius: 5px;
   font-size: large;
   color: #888; 
+  background-color: #e7fbee;
 }
 .search_bar select:focus {
-  color: black;
+   color: black;
+  background-color: white;
+}
+.search_bar input:focus {
+  background-color: white;
+  outline: none;
 }
